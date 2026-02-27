@@ -1,0 +1,19 @@
+{
+"name":"German's Measurement Mini",
+"autosave":"true",
+"scripts":[
+{"file":"1 Настройка параметров (mini).py","necessary":"false"},
+{"file":"2 Инициализация приборов (mini).py","necessary":"false"},
+{"file":"3 Измерения (mini).py","necessary":"false"},
+{"file":"4 Создание отчета (mini).py","necessary":"false"}
+],
+"libraries":[
+{"file":"MOKO.py"},
+{"file":"MOSC.py"},
+{"file":"MGPH.py"},
+{"file":"MFRT.py"}
+],
+"templates":[
+{"file":"Отчет.docx"}
+]
+}

@@ -1,0 +1,36 @@
+{
+"scripts":
+[
+{"name":"1 Настройка параметров (mini)","smark":"passed"},
+{"name":"2 Инициализация приборов (mini)","smark":"passed"},
+{"name":"3 Измерения (mini)","smark":"passed"},
+{"name":"4 Создание отчета (mini)","smark":"start"}
+],
+"report":
+[
+{"name":"Results","kind":"table","info":"Номер \nзамера#60;Системное \nвремя#120;Время на \nизмерения#80;Входное \nнапряжение, Вт#90;Входной \nток, А#60;Входная \nмощность, В#90;Выходное \nнапряжение, В#90;Выходной \nток, А#70;Выходная \nмощность, Вт#90;КПД, %#70;","script":"3 Измерения (mini)",
+"data":""}
+
+],
+"tree":
+[
+{"line":"0","name":"German's Measurement Mini","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Настройка параметров (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"German's Measurement Mini","script":"1 Настройка параметров (mini)","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"German's Measurement Mini","script":"1 Настройка параметров (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"4","name":"2 Инициализация приборов (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"6","name":"Инициализация DMM6500_04582450","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Инициализация","status":"passed","pcode":"5","pcount":"4"},
+{"line":"7","name":"Инициализация Keysight66332A","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Инициализация","status":"passed","pcode":"5","pcount":"4"},
+{"line":"8","name":"Настройка параметров","type":"region","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"9","name":"Настройка DMM6500_04582450","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"4"},
+{"line":"10","name":"Настройка Keysight66332A","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"4"},
+{"line":"11","name":"3 Измерения (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"12","name":"Ход измерений","type":"region","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"13","name":"Измерение1","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"14","name":"Измерение2","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"15","name":"Измерение3","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"16","name":"4 Создание отчета (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"17","name":"Формирование отчета:","type":"region","project":"German's Measurement Mini","script":"4 Создание отчета (mini)","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}

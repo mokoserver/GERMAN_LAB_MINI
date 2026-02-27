@@ -1,0 +1,63 @@
+{
+"scripts":
+[
+{"name":"1 Настройка параметров (mini)","smark":"passed"},
+{"name":"2 Инициализация приборов (mini)","smark":"passed"},
+{"name":"3 Измерения (mini)","smark":"passed"},
+{"name":"4 Создание отчета (mini)","smark":"start"}
+],
+"report":
+[
+{"name":"Results","kind":"table","info":"Номер \nзамера#120;Установленное \n напряжение#120;Измеренное \n напряжение#120;Отклонение \nнапряжение#120;Статус #90;","script":"3 Измерения (mini)",
+"data":"Измерение 1;1;1.002;-0.002;Успешно;\r
+Измерение 2;2;2.006;-0.006;Успешно;\r
+Измерение 3;3;3.009;-0.009;Успешно;\r
+Измерение 4;4;4.000;0.000;Успешно;\r
+Измерение 5;5;5.003;-0.003;Успешно;\r
+Измерение 6;6;6.006;-0.006;Успешно;\r
+Измерение 7;7;6.997;0.003;Успешно;\r
+Измерение 8;8;8.000;-0.000;Успешно;\r
+Измерение 9;9;9.003;-0.003;Успешно;\r
+Измерение 10;10;10.007;-0.007;Успешно;\r
+Измерение 11;11;10.997;0.003;Успешно;\r
+Измерение 12;12;12.001;-0.001;Успешно;\r
+Измерение 13;13;13.004;-0.004;Успешно;\r
+Измерение 14;14;14.008;-0.008;Успешно;\r
+Измерение 15;15;14.999;0.001;Успешно;\r
+"}
+
+],
+"tree":
+[
+{"line":"0","name":"German's Measurement Mini","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Настройка параметров (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"German's Measurement Mini","script":"1 Настройка параметров (mini)","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"German's Measurement Mini","script":"1 Настройка параметров (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"4","name":"2 Инициализация приборов (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"6","name":"Инициализация DMM6500_04582450","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Инициализация","status":"passed","pcode":"5","pcount":"4"},
+{"line":"7","name":"Инициализация Keysight66332A","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Инициализация","status":"passed","pcode":"5","pcount":"4"},
+{"line":"8","name":"Настройка параметров","type":"region","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"9","name":"Настройка DMM6500_04582450","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"4"},
+{"line":"10","name":"Настройка Keysight66332A","type":"hesh","project":"German's Measurement Mini","script":"2 Инициализация приборов (mini)","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"4"},
+{"line":"11","name":"3 Измерения (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"12","name":"Ход измерений","type":"region","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"","status":"empty","pcode":"0","pcount":"4"},
+{"line":"13","name":"Измерение 1","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"14","name":"Измерение 2","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"15","name":"Измерение 3","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"16","name":"Измерение 4","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"17","name":"Измерение 5","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"18","name":"Измерение 6","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"19","name":"Измерение 7","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"20","name":"Измерение 8","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"21","name":"Измерение 9","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"22","name":"Измерение 10","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"23","name":"Измерение 11","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"24","name":"Измерение 12","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"25","name":"Измерение 13","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"26","name":"Измерение 14","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"27","name":"Измерение 15","type":"hesh","project":"German's Measurement Mini","script":"3 Измерения (mini)","region":"Ход измерений","status":"passed","pcode":"5","pcount":"4"},
+{"line":"28","name":"4 Создание отчета (mini)","type":"script","project":"German's Measurement Mini","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"29","name":"Формирование отчета:","type":"region","project":"German's Measurement Mini","script":"4 Создание отчета (mini)","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}
